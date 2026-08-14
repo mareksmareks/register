@@ -7,9 +7,11 @@
     "MX": [
       {
         "priority": 10,
-        "target": "feedback-smtp.eu-west-1.amazonses.com"
+        "value": "feedback-smtp.eu-west-1.amazonses.com"
       }
     ],
-    "TXT": "v=spf1 include:amazonses.com ~all"
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
   }
 }
